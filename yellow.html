@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RHW Marble Shop</title>
+    <link rel="stylesheet" href="assets/style.css">
+
+      <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  
+  <!-- google font link  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+   <!-- font awsome link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+   
+  // go to top button  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+
+
+   <style>
+		.modal {
+			text-align: center;
+		}
+	</style>
+
+</head>
+<body>
+
+  
+  <!-- Preloader Start -->
+<div class="loader-bg">
+	<div class="loader"></div>
+</div>
+    <!-- Preloader End -->
+
+   
+<!--   
+  <nav class="navbar navbar-expand-lg  bg-light  sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="product.html">Products</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Stones
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="yellow.html">Yellow Stones<i class="fa-duotone fa-play"></i></a></li>
+              <li><a class="dropdown-item" href="#">Blue Stones</a></li>
+              <li><a class="dropdown-item" href="#">K Grey Stones</a></li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav> -->
+
+ 
+  <nav class="navbar fixed-top  navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mx-4 px-4" id="navbarTogglerDemo01">
+        <!-- <a class="navbar-brand" href="#">Hidden brand</a> -->
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo.jpg" alt="" width="50px" height="50px">
+        </a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="product.html">Products</a>
+          </li>
+          
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+              Stones
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="yellow.html">Yellow Stones<i class="fa-duotone fa-play"></i></a></li>
+              <li><a class="dropdown-item" href="blueProd.html">Blue Stones</a></li>
+              <li><a class="dropdown-item" href="#">K Grey Stones</a></li>
+              
+            </ul>
+          </li> -->
+
+          
+        </ul>
+        <span class="navbar-text">
+          <i class="fa-solid fa-envelope"></i> emailOfCompany@gmail.com 
+                <br>
+          <i class="fa-solid fa-phone"></i> 99XXXXXXXX
+        </span>
+      </div>
+    </div>
+  </nav>
+
+
+    <!-- Back to top button -->
+    <a href="#" id="button22"></a>
+
+  <section class="container main-heading2">
+    <h2 class="text-dark">BLACK LIMESTONE PAVING 900X600</h2>
+    <p class="text-dark"><span class="fw-bolder"> Black Limestone Paving 900X600</span> found in the sedimentary rock and made up of Calcite and aragonite. Limestone Slabs and Tiles highly water soluble in sedimentary rock.</p>
+
+    <h4>Appearance of Limestone</h4>
+    <p class="text-dark">These limestone are naturally exist in earth deposit under normal soil. Under the soil these limestone available. Limestone fits in amazingly with outdoor and garden area. </p>
+    <p class="text-dark">Personalizing your garden is eay with limestone pavers. while there aren't as many color options as sandstone or slates, these are still many beautiful options and shades of limestone.</p>
+    <p class="text-dark">one of the key differences is that sandstone is considerably more porous, meaning it absorbs a bit more water than limestone. That why we prefer limestone slabs are better for UK weather.</p>
+    <p class="text-dark">If you should consider what your paving will look like when wet. In the UK, you might find it rains more days that its dry, and it will your limestone paving looks slightly different from others products.</p>
+
+    <h4>Export of Limestone</h4>
+    <p class="text-dark">Juno Stone Paving (OPC) Private limited is engaged in Natural Stone Paving Export  from Betamcherla, Andhra Pradesh, India to Australia, Bhutan,UK, & USA.</p>
+    <p class="text-dark">Our black limestone paving slabs  is available in four sizes. Out of those single size is  900X600. This is maximum size goes to export regularly.  This stones are flatter, smooth finish and riven surface finish. The stone appears in black color in wet look and when dries looks as dark grey color. The black limestone is water resistant and proves a heat weaving and good option for long lasting option to use for landscape paving projects. Its easy to installed it.</p>
+  </section>
+
+
+
+<div class="allCrds">
+
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y1.jpg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModal">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModal" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- w-100 class so that header
+            div covers 100% width of parent div -->
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y1.jpg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+  
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y2.jpg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModal1">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModal1" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y2.jpg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y10.jpg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModal2">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModal2" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y10.jpg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y11.jpg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModal3">
+        </div>
+          <h4 class="text-center">Yellow 3</h4>
+      <div class="modal fade" id="exampleModal3" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y11.jpg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y12.jpg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModal4">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModal4" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y12.jpg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+    <!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y13.jpg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModal5">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModal5" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y13.jpg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y14.jpg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModal6">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModal6" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y14.jpg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y15.jpg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModal7">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModal7" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y15.jpg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y16.jpg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModal8">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModal8" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y16.jpg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y17.jpg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModal9">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModal9" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y17.jpg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y18.jpeg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModa20">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModa20" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y18.jpeg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y19.jpeg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModa21">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModa21" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y19.jpeg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y20.jpg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModa22">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModa22" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y20.jpg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y21.jpg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModa23">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModa23" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y21.jpg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y22.jpg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModa24">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModa24" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y22.jpg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y23.jpg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModa25">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModa25" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y23.jpg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y24.jpg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModa26">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModa26" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y24.jpg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+  
+  
+    <div class="container">
+      <section class="secrr">
+        <div class="secrrimg">
+          <img src="assets/marble_yellow/y25.jpg" width="250vh" height="250vw" data-toggle="modal"
+          data-target="#exampleModa27">
+        </div>
+          <h4 class="text-center">Yellow 1</h4>
+      <div class="modal fade" id="exampleModa27" tabindex="-1"
+        role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title w-100"
+                id="exampleModalLabel">
+                RHW Marbles
+              </h5>
+              <button type="button" class="close"
+                data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  ×
+                </span>
+              </button>
+            </div>
+            <!--Modal body with image-->
+            <div class="aa modal-body">
+              <div class="d-flex">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur quos iure eum quisquam molestiae sequi repudiandae, rem omnis facilis. Doloribus pariatur quod ipsam laudantium expedita est unde ipsa deserunt iusto recusandae harum atque nisi suscipit reprehenderit eius, corrupti delectus cupiditate porro, nostrum, ducimus soluta saepe a? Repellendus, placeat mollitia.</p>
+                <img src="assets/marble_yellow/y25.jpg" width="500vw" height="500vh" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+</div>
+
+
+<section class="container main-heading3">
+  <h4 class="text-dark">BLACK LIMESTONE PAVING 900X600</h4>
+  <p class="text-dark">Natural with Both sides varies from 20 -25mm, 25-30mm for UAE Projects Purpose  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.</p>
+  <p class="text-dark">  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.</p>
+  <p class="text-dark"> Natural Calibrated then tumbled with 30mm, 33mm, for USA Projects.  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.</p>
+  <p class="text-dark"> Its depending of Countries, we will supply the material as per custom requirements.  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.</p>
+  <h4 class="text-dark">Black Limestone Paving 900×600 Finishes </h4>
+      
+  <h4 class="text-dark">BLACK LIMESTONE PAVING 900X600</h4>
+  <p class="text-dark">Natural with Both sides varies from 20 -25mm, 25-30mm for UAE Projects Purpose  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.</p>
+  <p class="text-dark">  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.</p>
+  <p class="text-dark"> Natural Calibrated then tumbled with 30mm, 33mm, for USA Projects.  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.</p>
+  <p class="text-dark"> Its depending of Countries, we will supply the material as per custom requirements.  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.</p>
+  <h4 class="text-dark">Black Limestone Paving 900×600 Finishes </h4>
+      
+  <h4 class="text-dark">BLACK LIMESTONE PAVING 900X600</h4>
+  <p class="text-dark">Natural with Both sides varies from 20 -25mm, 25-30mm for UAE Projects Purpose  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.</p>
+  <p class="text-dark">  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.</p>
+  <p class="text-dark"> Natural Calibrated then tumbled with 30mm, 33mm, for USA Projects.  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.</p>
+  <p class="text-dark"> Its depending of Countries, we will supply the material as per custom requirements.  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.</p>
+  <h4 class="text-dark">Black Limestone Paving 900×600 Finishes </h4>
+      
+  <h4 class="text-dark">BLACK LIMESTONE PAVING 900X600</h4>
+  <p class="text-dark">Natural with Both sides varies from 20 -25mm, 25-30mm for UAE Projects Purpose  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.</p>
+  <p class="text-dark">  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.</p>
+  <p class="text-dark"> Natural Calibrated then tumbled with 30mm, 33mm, for USA Projects.  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.</p>
+  <p class="text-dark"> Its depending of Countries, we will supply the material as per custom requirements.  Natural with calibrated with 22mm, 25mm, 30mm for UK Projects.</p>
+
+      
+
+</section>
+
+
+
+
+
+
+
+<section class="main-heading4">
+    <!-- footer sction  -->
+    <footer class="section-p1">
+      <div class="col" data-aos="fade-up">
+          <img class="logo" src="img/logo.png" alt="">
+          <h4>Contact</h4>
+          <p><strong>Address:</strong> 55 A Sainath Nagar Kolar, Bhopal , Madhya Pradesh</p>
+          <p><strong>Phone:</strong>934084557*</p>
+          <p><strong>Hours:</strong>10:00-18:00,Mon-Sat</p>
+          <div class="follow">
+              <h4>Follow Us</h4>
+              <div class="icon">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-pinterest-p"></i>
+                  <i class="fab fa-youtube"></i>
+              </div>
+          </div>
+      </div>
+
+      <div class="col" data-aos="fade-up">
+          <h4>About</h4>
+          <a href="about.html">About Us</a>
+          <a href="shop.html">Delivery Information</a>
+          <a href="blog.html">Privacy Policy</a>
+          <a href="about.html">Terms and Condition</a>
+          <a href="contact.html">Contact Us</a>
+      </div>
+
+      <div class="col" data-aos="fade-up">
+          <h4>My Acount</h4>
+          <a href="login.html">Sign In</a>
+          <a href="#">View Cart</a>
+          <a href="#">My Wishlist</a>
+          <a href="#">Track My Order</a>
+          <a href="contact.html">Contact Us</a>
+      </div>
+
+      <div class="col install" data-aos="fade-up">
+          <h4>Install app</h4>
+          <p>From App store or Google play</p>
+          <div class="row">
+              <img src="img/pay/app.jpg" alt="">
+              <img src="img/pay/play.jpg" alt="">
+          </div>
+          <p>Secured Payment Gateway</p>
+          <img src="img/pay/pay.png" alt="">
+      </div>
+
+      <div class="copyright" data-aos="fade-up">
+          <p>@ 2021,Tech - HTML CSS JS Template</p>
+      </div>
+  </footer>
+</section>
+
+
+
+
+
+<script>
+
+  const myModal = new bootstrap.Modal(document.getElementById('exampleModal'), options);
+
+  // go to top button 
+
+  var btn = $('#button22');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+</script>
+<script src=
+"https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity=
+"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous">
+	</script>
+	<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity=
+"sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous">
+	</script>
+	<script src=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity=
+"sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous">
+
+	</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    setTimeout(function(){
+    $('.loader-bg').fadeToggle();
+      }, 1000);
+  </script>
+  </body>
+  </html>
